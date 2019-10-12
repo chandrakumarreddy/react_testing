@@ -1,0 +1,25 @@
+body {
+  padding: 1% 5%;
+  text-align: center;
+}
+form {
+  margin-bottom: 20px;
+}
+.b1 {
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.danger {
+  color: red;
+  border: 1px solid red;
+}
+.success {
+  color: green;
+  border: 1px solid green;
+}
+.aliceBlue {
+  background-color: aliceblue;
+}
