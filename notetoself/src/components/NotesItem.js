@@ -21,7 +21,7 @@ export default function NotesItem({ note, removeNote, updateText }) {
               />
             </Form>
           )}
-          {!edit && <div>{note.text}</div>}
+          {!edit && <div className="noteText">{note.text}</div>}
           <div>
             <span className="b1 success" onClick={() => setEdit(true)}>
               Edit
